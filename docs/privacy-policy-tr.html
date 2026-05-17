@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Block Saga — Gizlilik Politikası</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    max-width: 800px; margin: 0 auto; padding: 24px;
+    background: #0e1426; color: #e8eaf0; line-height: 1.6;
+  }
+  h1 { color: #00e5ff; border-bottom: 2px solid #00e5ff44; padding-bottom: 8px; }
+  h2 { color: #ff6ba8; margin-top: 32px; }
+  a { color: #00e5ff; }
+  .lang-switch { text-align: center; margin: 16px 0 32px; }
+  .lang-switch a { padding: 8px 16px; border: 1px solid #00e5ff; border-radius: 6px; text-decoration: none; }
+  .updated { color: #888; font-size: 0.9em; margin-bottom: 32px; }
+  ul { padding-left: 24px; }
+  code { background: #1e2438; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; }
+</style>
+</head>
+<body>
+
+<h1>Block Saga — Gizlilik Politikası</h1>
+<div class="lang-switch">
+  <a href="index.html">🇬🇧 English</a>
+</div>
+<div class="updated">Son güncelleme: 2026-05-16</div>
+
+<p>
+  Bu Gizlilik Politikası, <strong>Block Saga</strong> uygulamasının ("biz", "uygulama") kullanıcı verilerini nasıl ele aldığını açıklar.
+  Block Saga'yı yüklediğinizde veya kullandığınızda bu politikayı kabul etmiş sayılırsınız. Kabul etmiyorsanız uygulamayı kaldırın.
+</p>
+
+<h2>1. Topladığımız Veriler</h2>
+<p>Block Saga gizliliğe saygılı olacak şekilde tasarlandı. Kişisel bilgi <strong>toplamıyoruz</strong>.</p>
+
+<p>Saklanabilecek veriler:</p>
+<ul>
+  <li><strong>Cihazınızda yerel olarak:</strong> oyun ilerlemesi (skorlar, seviyeler, açılan skinler, ayarlar, günlük görevler). <code>PlayerPrefs</code> / uygulama yerel depolaması.</li>
+  <li><strong>Anonim bulut senkronizasyonu (opsiyonel):</strong> Unity Gaming Services üzerinden. Oyun ilerlemesi (en iyi skorlar, liderlik tablosu kayıtları, save snapshot) Unity tarafından oluşturulan <strong>anonim bir kullanıcı ID'si</strong> ile ilişkilendirilir. İsim, e-posta, telefon numarası veya başka kişisel tanımlayıcı toplanmaz.</li>
+  <li><strong>Çökme tanılaması:</strong> uygulama çökerse anonimleştirilmiş stack trace'ler (cihaz modeli, işletim sistemi, uygulama versiyonu, exception tipi) yerel olarak saklanır. Bunlar siz destek için paylaşmayı seçmediğiniz sürece otomatik gönderilmez.</li>
+</ul>
+
+<h2>2. Toplamadığımız Veriler</h2>
+<ul>
+  <li>Kişisel tanımlayıcılar (isim, e-posta, telefon, adres)</li>
+  <li>Konum verisi (GPS, IP tabanlı)</li>
+  <li>Rehber, fotoğraf, mikrofon, kamera erişimi</li>
+  <li>Davranışsal reklam verisi</li>
+  <li>Ödeme bilgisi</li>
+</ul>
+
+<h2>3. Üçüncü Taraf Hizmetler</h2>
+<p>Block Saga aşağıdaki üçüncü taraf hizmetleri kullanır. Her birinin kendi gizlilik politikası vardır:</p>
+<ul>
+  <li><strong>Unity Gaming Services</strong> (Kimlik doğrulama, Cloud Save, Leaderboards) — <a href="https://unity.com/legal/privacy-policy">Unity Gizlilik Politikası</a></li>
+  <li><strong>Google Play Services</strong> (dağıtım, güncellemeler) — <a href="https://policies.google.com/privacy">Google Gizlilik Politikası</a></li>
+</ul>
+
+<h2>4. Çocukların Gizliliği (COPPA / GDPR-K)</h2>
+<p>
+  Block Saga genel kitleye uygundur (E/PEGI 3 derecelendirme).
+  13 yaş altı çocuklardan bilerek veri toplamayız.
+  Tüm bulut verisi anonimdir (kişisel tanımlayıcı yok), bu da uygulamayı COPPA ve GDPR-K gerekliliklerine uyumlu kılar.
+</p>
+
+<h2>5. Haklarınız</h2>
+<p>Her zaman aşağıdaki haklara sahipsiniz:</p>
+<ul>
+  <li><strong>Veri silme:</strong> oyun içi Ayarlar → "İlerlemeyi Sıfırla" tüm yerel ve bulut verisini siler.</li>
+  <li><strong>Bulut senkronizasyonundan vazgeçme:</strong> veri sadece cihazınızda kalır. (Özellik: oyun içi Ayarlar → Cloud Sync toggle.)</li>
+  <li><strong>Ne saklandığını bilme hakkı:</strong> bize ulaşın: <a href="mailto:bykdag.ali@gmail.com">bykdag.ali@gmail.com</a></li>
+</ul>
+
+<h2>6. Veri Saklama Süresi</h2>
+<p>
+  Bulut senkronizasyon verisi anonim hesabınız aktif olduğu sürece saklanır.
+  Uygulamayı 24 ay boyunca açmazsanız bulut veriniz Unity Gaming Services tarafından otomatik silinebilir.
+  Yerel veri uygulamayı silene veya ilerlemeyi sıfırlayana kadar cihazınızda kalır.
+</p>
+
+<h2>7. Güvenlik</h2>
+<p>
+  Bulut verisi HTTPS üzerinden iletilir ve Unity sunucularında (Google Cloud Platform altyapısı) saklanır.
+  İletim ve depolama sırasında endüstri standardı şifreleme kullanırız.
+  Kişisel tanımlayıcı toplanmadığı için veri ihlali riski minimize edilmiştir.
+</p>
+
+<h2>8. Politika Değişiklikleri</h2>
+<p>
+  Bu Gizlilik Politikasını güncelleyebiliriz. En üstteki "Son güncelleme" tarihi en son revizyonu yansıtır.
+  Önemli değişiklikler uygulama içi bildirim veya güncelleme notları ile duyurulur.
+</p>
+
+<h2>9. İletişim</h2>
+<p>
+  Soru, talep veya endişe?<br />
+  E-posta: <a href="mailto:bykdag.ali@gmail.com">bykdag.ali@gmail.com</a>
+</p>
+
+</body>
+</html>
